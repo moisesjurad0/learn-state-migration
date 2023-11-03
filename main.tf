@@ -4,12 +4,13 @@
 ## Terraform configuration
 
 terraform {
-  cloud {
+
+  /*cloud {
     organization = "moisesjurad0"
     workspaces {
       name = "learn-terraform-cloud-migrate"
     }
-  }
+  }*/
 
   required_providers {
     random = {
